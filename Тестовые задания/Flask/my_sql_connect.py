@@ -47,7 +47,7 @@ try:
     with connect(
         host="localhost",
         user='root',  # input("Имя пользователя: "),
-        password='180887!',  # getpass("Пароль: "),
+        password='***',  # getpass("Пароль: "),
         database="employees_test_work",
     ) as connection:
         with connection.cursor() as cursor:
@@ -66,7 +66,7 @@ except Error as e:
 connection = connect(
         host="localhost",
         user='root',  # input("Имя пользователя: "),
-        password='180887!',  # getpass("Пароль: "),
+        password='***',  # getpass("Пароль: "),
         database="employees_test_work",
     )
 engine = connection
